@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+
+*{ 
+  background: white;
+}
+
+.app__tickets {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}

@@ -1,0 +1,31 @@
+
+
+.counter{
+
+    &__container{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        border: 2px, solid, black;
+        border-style: solid;
+        margin: 7%;
+        justify-content: center;
+        margin-top: auto;
+    }
+
+    &__title{
+        font-size: 90%;
+    }
+
+    &__display{
+        font-size: 20px;
+    }
+
+    &__buttons{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+
+}

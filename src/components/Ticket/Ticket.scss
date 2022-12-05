@@ -1,0 +1,23 @@
+
+
+.ticket{
+    
+    
+
+    &__container{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        width: 10%;
+        border: 2px, solid, black;
+    border-style: solid;
+    margin: 3%;
+    }
+
+    &__np{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+    }
+
+}
